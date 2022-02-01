@@ -1,4 +1,4 @@
-package com.company;
+package com.company.javaNeceIsleyir;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class ScannerEx {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+//
         System.out.println("a-ni daxil edin");
         double a = sc.nextDouble();
 
@@ -27,6 +27,11 @@ public class ScannerEx {
              netice = a/b;
         }
         System.out.println("netice= "+netice);
+
+        boolean c =true;
+//        c = !c;
+        System.out.println("c= "+c);
+
 
 
     }
