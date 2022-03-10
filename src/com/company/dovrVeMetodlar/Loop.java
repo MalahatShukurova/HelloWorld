@@ -1,6 +1,6 @@
-package com.company.dovrler;
+package com.company.dovrVeMetodlar;
 
-public class Main {
+public class Loop {
     public static void main(String[] args) {
         /*
          **********
@@ -61,11 +61,30 @@ public class Main {
 //        }
 //            System.out.println("");
 
-        for( int i= 0;i< 10; i++){
-            if(i==3){
-                continue;
-            }
-            System.out.println(i+ "=");
-    }
-        System.out.println("for finished");
+//        for( int i= 0;i< 10; i++){
+//            if(i==3){
+//                continue;
+//            }
+//            System.out.println(i+ "=");
+//    }
+//        System.out.println("for finished");
+//
+//        int i = 0;
+//        while (i<10){
+//            //filan ishi gor
+//            if(i==3) break;
+//            System.out.println("i="+(++i));
+//        }
+//        System.out.println("finished");
+
+            int j=0;
+            do {
+                j++;
+                if (j==3){
+                    break;
+                }
+                System.out.println("j="+j);
+            } while (j<10);
+        System.out.println("finish");
+
 }}
