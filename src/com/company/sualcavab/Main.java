@@ -6,18 +6,14 @@ public class Main {
         foo(a);
         System.out.println(a);
 
-        User u = new User();
-        foo2(u);
-        System.out.println(u.a);
+
 
 
 
     }
 
-    public static void foo(int x) {
-        x++;
+    private static void foo(int a) {
     }
-    public static void foo2(User u){
-    u.a++;
-    }
+
+
 }

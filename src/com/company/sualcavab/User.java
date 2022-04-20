@@ -1,5 +1,13 @@
 package com.company.sualcavab;
 
 public class User {
-    int a = 5;
+    public int a;
+
+    public User(int a){
+        this.a = a;
+    }
+
+    public User() {
+
+    }
 }
